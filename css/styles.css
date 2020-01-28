@@ -1,0 +1,40 @@
+body {
+  background: #f115;
+  margin: auto;
+}
+h1 {
+  color: black;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+a {
+  border-style: double;
+  border-colour: 5px black;
+  padding: 0.5em 0.5em;
+}
+
+nav:hoover {
+  transition: 0.3s;
+}
+
+a:hover  {
+  background: red;
+  color: blue;
+}
+
+main {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
